@@ -1,0 +1,141 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 10px ;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 85%;
+    margin: 70px auto;
+}
+
+.conteiner div{
+    box-sizing: border-box;
+}
+
+
+.left_title{
+    text-align: center;
+    font-size: 30px;
+    padding:  5% 30px 0px;
+    display: block;
+}
+
+.left_question{
+    text-align: center;
+    font-size: 15px;
+    padding: 0px 10%;
+}
+
+
+.button{
+    border: 1px solid white;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    margin: 20px auto 30px;
+    padding-top: 10px;
+}
+
+.p_relative{
+    position: relative;
+}
+
+.icon{
+    font-size: 18px;
+    position: absolute;
+    left: 23%;
+    bottom: 25%;
+    z-index: 10;
+    color: #B4B4B4;
+}
+
+.button:hover{
+    background: white;
+    color: #3BB794;  
+}
+
+.light_color{
+    background: white;
+    color: #3BB794;    
+}
+
+.dark_color{
+    background-color: #3BB794;
+    color: white;
+    border:1px solid #3BB794;
+}
+
+.left img{
+    width: 304px;
+    display: block;
+    margin: auto;
+}
+
+.left h1{
+    
+    position: relative;
+    font-size: 15px;
+    left: 25px;
+    margin: 20px 0px 0px;
+}
+
+.input{
+    border: 1px solid #B4B4B4;
+    color: #B4B4B4;
+    border-radius: 10px;
+    height: 35px;
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+    width: 250px;
+    
+}
+
+.left{
+
+    background-color: #3BB794;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    opacity: 0.9;
+    
+}
+
+.right{
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;    
+    text-align: justify;
+    font-size: 13px;
+    padding: 5% 10%;
+    opacity: 1;
+}
+
+.right h2{
+    text-align: center;
+    color: #3BB794;
+    
+}
+
+.EllipseRed {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 0px;
+    right: 0%;
+    
+}
+
+.EllipseYellow {
+    position: absolute;
+    width: 310px;
+    height: 300;
+    left: 0px;
+    bottom: 0%;
+}

@@ -18,29 +18,30 @@
         <div class="left">
             <h1>Finanzify</h1>
             <img src="imagenes/registro.png" alt="register_image">
-            <a href="" class="button">Iniciar sesión</a>
+            <a href="" class="button" style="padding: 10px;">Iniciar sesión</a>
         </div>
         <div class="right">
             <h2>Registrarse</h2>
-            <form action="">
+            <form action="index.html">
 
                 <div class="p_relative">
                     <i class="fa-regular fa-user icon"></i>
-                    <input class="input" placeholder="Nombre" type="text">
+                    <input class="input" placeholder="Nombre" type="text" required>
                 </div>
                 <div class="p_relative">
                     <i class="fa-regular fa-envelope icon"></i>
-                    <input class="input" placeholder="Correo" type="email">
+                    <input class="input" placeholder="Correo" type="email" required>
                 </div>
                 <div class="p_relative">
                     <i class="fa-solid fa-lock icon"></i>
-                    <input class="input" placeholder="Contraseña" type="password">
+                    <input class="input" placeholder="Contraseña" type="password" required>
                 </div>
                 <div class="p_relative">
                     <i class="fa-solid fa-lock icon"></i>
-                    <input class="input" placeholder="Confirmar Contraseña" type="password">
+                    <input class="input" placeholder="Confirmar Contraseña" type="password" required>
                 </div>
-                <a href="index.html" class="button dark_color" type="submit">Registrarse</a>
+                <input type="submit" class="button dark_color" value="Registrarse">
+                
             </form>
         </div>
     </div>
